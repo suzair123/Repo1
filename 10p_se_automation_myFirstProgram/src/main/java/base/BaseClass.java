@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass {
-    public WebDriver driver;
+    private WebDriver driver;
 
     static{
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\broswerDrivers\\chromedriver.exe");
